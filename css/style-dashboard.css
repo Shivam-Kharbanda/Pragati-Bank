@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1d255c;
+    padding-top: 20px;
+    color: white;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar a {
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    background-color: #0A9EF1;
+}
+
+.sidebar .sidebar-header {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.main-content {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #1d255c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.content-section {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+    margin-top: 0;
+}
+
+.account-overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #e3e3e3;
+    border-radius: 8px;
+}
+
+.account-overview div {
+    width: 30%;
+    text-align: center;
+}
+
+.account-overview div p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.recent-transactions table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recent-transactions table, .recent-transactions th, .recent-transactions td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.recent-transactions th {
+    background-color: #1d255c;
+    color: white;
+    text-align: left;
+}
+
+.recent-transactions td {
+    text-align: left;
+}
+
+.settings form {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.settings input[type="text"], .settings input[type="password"], .settings input[type="submit"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.settings input[type="submit"] {
+    background-color: #1d255c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.settings input[type="submit"]:hover {
+    background-color: #16204b;
+}
+
+.chart {
+    width: 100%;
+    height: 300px;
+    background: #e3e3e3;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1d255c;
+    font-size: 24px;
+}

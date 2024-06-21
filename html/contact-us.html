@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Pragati Bank</title>
+    <link rel="stylesheet" href="../css/style-contactus.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="sections">
+                <div class="logo"></div>
+                <div class="home">
+                    <a href="../index.html" style="text-decoration: none; color: black;">Home</a>
+                </div>
+                <div class="FAQ">
+                    <a href="../html/faq.html" style="text-decoration: none; color: black;">FAQ</a>
+                </div>
+                <div class="about-us">
+                    <a href="../html/about-us.html" style="text-decoration: none; color: black;">About us</a>
+                </div>
+                <div class="contact-us-nav">
+                    <a href="../html/contact-us.html" style="text-decoration: none; color: black;"></a>Contact us
+                </div>
+            </div>
+            <div class="login-register">
+                <a style="text-decoration: none; color:white;" type="text/css" href="../html/login.html">Register/Login</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-us">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>If you have any questions, feedback, or need assistance, please don't hesitate to get in touch with us. 
+                    We're here to help!</p>
+                <h2>Our Contact Information</h2>
+                <p><strong>Address:</strong>UIET PANJAB UNIVERSITY, Sector-25, Chandigarh, 160036, INDIA</p>
+                <p><strong>Phone:</strong> +91 9090909090</p>
+                <p><strong>Email:</strong> support@pragatibank.com</p>
+                <h2>Send Us a Message</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pragati Bank. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

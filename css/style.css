@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 100px;
+    background-color: #FFFFFF;
+    padding: 20px clamp(1rem,10vw,10rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+    .sections{
+        display: flex;
+        align-items: center;
+        gap: clamp(10px,5vw,10rem);
+    }
+.logo{
+    background-image: url(../images/bank_logo-shivam.png);
+    background-size: cover;
+    height: 70px;
+    width: 80px;
+    
+}
+.login-register{
+    width: 140px;
+    height: 50px;
+    background-color: #0A9EF1;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.FAQ:hover{
+    text-decoration: underline;
+}
+.about-us:hover{
+    text-decoration: underline;
+}
+.contact-us:hover{
+    text-decoration: underline;
+}
+.heading #heading1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 5rem;
+}
+.heading #heading2{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    gap: 10px;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.logo-play{
+    max-height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3px;
+    color: #FFFFFF;
+}
+.playstore{
+    display: flex;
+    background-color: #1d255c;
+    padding: 7px;
+    cursor: pointer;
+
+   
+}
+.line-play{
+    color: #FFFFFF;
+}
+.logo-app{
+    max-height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3px;
+    color: #FFFFFF;
+}
+.appstore{
+    display: flex;
+    background-color: #1d255c;
+    padding: 7px;
+    cursor: pointer;
+
+}
+.line-app{
+    color: #FFFFFF;
+}
+main{
+    background: radial-gradient(
+        farthest-corner at 60px 10px,
+        white 0%,
+        rgba(249,253,228,1) 100%
+      );
+      
+}
+.family{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;  
+}
+#image{
+    height: 250px;
+    width: 450px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+#h2{
+    color: #0A9EF1;
+}
+#ul{
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
+.hr{
+    display: flex;
+
+}
+.WaysToBank{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px 50px 0px ;
+}
+.whatsapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid wheat;
+}
+.mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid wheat;
+    
+}
+.pragati-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid wheat;
+}
+pre{
+    font-size: large;
+}
+.footer{
+    background-color: #063E7C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+#pragati{
+    background-color: #063E7C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: end;
+    padding: 10px 10px 0px 6px;
+}
+.follow{
+    background-color: #0A9EF1;
+    color: #FFFFFF;
+}
+#x{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+#insta{
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    font-size: large;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #f9f9f9; /* Background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.swiper-slide p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.swiper-slide:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+.swiper-pagination {
+    margin-top: 20px;
+}
+
+#customer{
+    display: flex;
+    justify-content: center;
+    color: #1d255c;
+    padding: 20px 0px 20px 0px ;
+}

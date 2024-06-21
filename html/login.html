@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Registration</title>
+    <link rel="stylesheet" type="text/css" href="../css/style-login.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="login-page">
+        <div>
+            <img src="../images/login-page.jpeg" alt="Login Page Image" style="height: 700px; width: 700px;">
+        </div>
+        <div>
+            <h1 style="color: #1d255c; font-size: 50px;">Welcome to Internet Banking</h1>
+            <div id="bank-register">
+                <p>If you don't already use Internet Banking. It's simple to <a href="../html/registration.html" 
+                    style="text-decoration: none;"><span class="register">Register Online</span></a></p>
+            </div>
+            <br>
+            <form action="../html/dashboard.html">
+                <div class="username">
+                    <p style="color: #0A9EF1;">User Name</p>
+                    <div class="input-container">
+                        <i class="fa fa-user"></i>
+                        <label for="username"></label>
+                        <input type="text" id="acc-name" name="username" placeholder="Enter Username" required>
+                    </div>
+                </div>
+                <br>
+                <div class="password">
+                    <p style="color: #0A9EF1;">Password</p>
+                    <div class="input-container">
+                        <i class="fa fa-lock"></i>
+                        <label for="pass"></label>
+                        <input type="password" id="pass" name="pass" placeholder="Enter Password" required>
+                    </div>
+                </div>
+                <br>
+                <div class="login">
+                    <a href="../index.html"><button type="submit">Login</button></a>
+                </div>
+                <br>
+                <br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

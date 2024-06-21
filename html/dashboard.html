@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Dashboard</title>
+    <link rel="stylesheet" href="../css/style-dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="sidebar-header">Bank Dashboard</div>
+        <a href="#overview"><i class="fa fa-home"></i> Overview</a>
+        <a href="#transactions"><i class="fa fa-list"></i> Transactions</a>
+        <a href="#settings"><i class="fa fa-cog"></i> Settings</a>
+        <a href="login.html"><i class="fa fa-sign-out-alt"></i> Logout</a>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <h1>Shivam Kharbanda</h1>
+        </div>
+
+        <div id="overview" class="content-section">
+            <h2>Account Overview</h2>
+            <div class="account-overview">
+                <div>
+                    <p>Balance</p>
+                    <p>₹10,800</p>
+                </div>
+                <div>
+                    <p>Savings</p>
+                    <p>₹5,000</p>
+                </div>
+                <div>
+                    <p>Investments</p>
+                    <p>₹3,000</p>
+                </div>
+            </div>
+            <div class="chart">Chart Placeholder</div>
+        </div>
+
+        <div id="transactions" class="content-section recent-transactions">
+            <h2>Recent Transactions</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Amount</th>
+                        <th>Balance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01/06/2024</td>
+                        <td>Payment to Harshad Mehta</td>
+                        <td>-₹10000000</td>
+                        <td>₹9,800</td>
+                    </tr>
+                    <tr>
+                        <td>02/06/2024</td>
+                        <td>Deposit</td>
+                        <td>+₹1,000</td>
+                        <td>₹10,800</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="settings" class="content-section settings">
+            <h2>Settings</h2>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter Username">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password">
+
+                <input type="submit" value="Update">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

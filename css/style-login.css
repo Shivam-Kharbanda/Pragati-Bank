@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register{
+    background-color: #16b15b;
+    color: #FFFFFF;
+    padding: 4px;
+    border-radius: 13px;
+}
+#bank-register{
+    display: flex;
+
+}
+.login{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    background-color: #1d255c;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.login:hover{
+    text-decoration: underline;
+}
+.input-container {
+    position: relative;
+    width: 200px;
+    margin-bottom: 15px;
+}
+.input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 30px; /* Adjust padding for icon */
+    box-sizing: border-box;
+}
+.input-container .fa {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #0A9EF1;
+}
+.login button {
+    padding: 15px 65px;
+    background-color: #1d255c;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login button:hover {
+    background-color: #16204b;
+}
